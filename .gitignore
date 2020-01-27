@@ -1,0 +1,9 @@
+debian/debhelper*
+debian/.debhelper
+debian/*.log
+debian/*.debhelper
+debian/*.substvars
+debian/debhelper-build-stamp
+debian/zenpower-dkms
+debian/files
+

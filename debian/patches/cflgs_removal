@@ -1,0 +1,11 @@
+Removal of CFLGS-var because DKMS wouldn't build with it on my system
+Index: zenpower-dkms/src/dkms.conf
+===================================================================
+--- zenpower-dkms.orig/src/dkms.conf
++++ zenpower-dkms/src/dkms.conf
+@@ -1,4 +1,4 @@
+-MAKE="make TARGET=${kernelver} CFLAGS_MODULE+=@CFLGS@"
++MAKE="make TARGET=${kernelver}"
+ CLEAN="make clean"
+ PACKAGE_NAME="zenpower"
+ PACKAGE_VERSION="@VERSION@"

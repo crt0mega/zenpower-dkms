@@ -1,0 +1,16 @@
+Source: zenpower-dkms
+Section: unknown
+Priority: optional
+Maintainer: crt0mega <crt0mega@curie.c-r-t.tk>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.4.1
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Browser: https://salsa.debian.org/debian/zenpower-dkms
+#Vcs-Git: https://salsa.debian.org/debian/zenpower-dkms.git
+
+Package: zenpower-dkms
+Architecture: all
+Depends: ${misc:Depends}, dkms
+Description: DKMS packages for zenpower kernel module
+ Zenpower provides extended sensor data on Zen-based systems.
+ zenpower-dkms is a debianized DKMS-package for lazy integration.
