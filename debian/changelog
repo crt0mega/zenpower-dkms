@@ -1,8 +1,8 @@
-zenpower-dkms (0.1.6-1+crt1) UNRELEASED; urgency=medium
+zenpower-dkms (0.1.8) UNRELEASED; urgency=medium
 
-  * First upload
+  * Updated to 0.1.8 from upstream
 
- -- crt0mega <crt0mega@curie.c-r-t.tk>  Mon, 27 Jan 2020 14:07:31 +0100
+ -- crt0mega <crt0mega@curie.c-r-t.tk>  Mon, 10 Feb 2020 15:09:51 +0100
 
 zenpower-dkms (0.1.6-1) unstable; urgency=medium
 
